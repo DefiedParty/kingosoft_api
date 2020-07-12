@@ -523,10 +523,10 @@ class ParamUtils {
         buffer += ("week=") + (week) + ("&");
         buffer += ("xnxq=") + (xnxq) + ("&");
         buffer += ("channel=") + ("jrkb") + ("&"); //默认值 代表今日课表
-        buffer += ("usertype=") + (userJSON["STU"]) + ("&");
+        buffer += ("usertype=") + (userJSON["usertype"]) + ("&");
         buffer += ("action=") + ("getKb") + ("&"); //默认值
         buffer += ("step=") + ("kbdetail_bz") + ("&"); //默认值
-        buffer += ("userId=") + (userJSON['uuid']) + ("&"); //由 学校代码_账号 构成
+        buffer += ("userId=") + (userJSON['userid']) + ("&"); //由 学校代码_账号 构成
         buffer += ("bjdm=") + (bjdm) + ("&");
         buffer += ("sfid=") + (userJSON['userid']) + ("&"); //由 学校代码_账号 构成
         buffer += ("uuid=") + (userJSON['uuid']);

@@ -533,6 +533,11 @@ class ParamUtils {
         return buffer.toString();
     }
 }
+/* 旧版
 ParamUtils.URL = "http://www.xiqueer.com:8080/manager/wap/wapController.jsp"; //请求接口
 ParamUtils.URL_WEBVIEW = "http://www.xiqueer.com:8080/manager/wap/jwApi.jsp"; //内嵌web请求接口
+*/
+
+ParamUtils.URL = "http://api.xiqueer.com/manager/wap/wapController.jsp"; //请求接口
+ParamUtils.URL_WEBVIEW = "http://api.xiqueer.com/manager/wap/jwApi.jsp"; //内嵌web请求接口
 

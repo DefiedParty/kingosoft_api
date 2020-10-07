@@ -29,9 +29,12 @@ public class Info {
      * 至于参数列表的组合顺序，emm..我好想是发过了修改后的App了
      */
     public static class URLS {
-        //请求接口
-        public static String URL = "http://www.xiqueer.com:8080/manager/wap/wapController.jsp";
-        public static String URL_WEBVIEW = "http://www.xiqueer.com:8080/manager/wap/jwApi.jsp";
+        //请求接口（旧版）
+        // public static String URL = "http://www.xiqueer.com:8080/manager/wap/wapController.jsp";
+        // public static String URL_WEBVIEW = "http://www.xiqueer.com:8080/manager/wap/jwApi.jsp";
+
+        public static String URL = "http://api.xiqueer.com/manager/wap/wapController.jsp";
+        public static String URL_WEBVIEW = "http://api.xiqueer.com/manager/wap/jwApi.jsp";
 
         /**
          * 学校列表参数
